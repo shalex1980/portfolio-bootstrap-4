@@ -1,0 +1,9 @@
+main {
+  background-color: rgba(44, 62, 80, 0.3);
+  background-image: url("../../../assets/img/intro/pattern.png");
+  background-repeat: repeat;
+  width: 100%;
+  min-height: 100vh; }
+
+.wrap {
+  min-height: 100vh; }

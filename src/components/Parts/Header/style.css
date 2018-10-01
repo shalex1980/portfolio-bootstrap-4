@@ -1,0 +1,7 @@
+/*-- Border -radius  --*/
+.header {
+  position: relative;
+  z-index: +1;
+  background: #fff; }
+  .header .navbar-brand {
+    font-size: 28px; }

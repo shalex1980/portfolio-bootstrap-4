@@ -1,0 +1,16 @@
+/*-- Border -radius  --*/
+.do {
+  color: #fff;
+  outline: solid 1px #fff; }
+  .do-info {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .do-art {
+    height: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: solid 1px #fff;
+    border-radius: 0.25rem; }
+    .do-art__logo {
+      font-weight: 700;
+      font-size: 22px; }

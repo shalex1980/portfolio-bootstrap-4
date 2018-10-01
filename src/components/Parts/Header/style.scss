@@ -1,0 +1,15 @@
+@import '../../../scss/customer/_variables.scss';
+
+.header {
+	position: relative;
+	z-index: +1;
+	//height: 70px;
+	background: #fff;
+	.navbar-brand {
+		font-size: 28px;
+	}
+	.nav-item {
+		a {
+		}
+	}
+}
