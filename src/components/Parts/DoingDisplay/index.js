@@ -3,71 +3,92 @@ import './style.css';
 
 export default () => {
   return (
-    <section className="do wrap">
-      <div className="container">
-        <div className="row">
+    <section id="services" className="pfblock pfblock-gray">
+    <div className="container">
+      <div className="row">
 
-          <div className="col-sm-6 offset-sm-3">
+        <div className="col-sm-6 col-sm-offset-3">
 
-            <div className="do-info text-center">
-              <h2 className="">Что я делаю </h2>
-              <div className="pfblock-line"></div>
-              <p >
-                No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-              </p>
+          <div className="pfblock-header wow fadeInUp">
+            <h2 className="pfblock-title">This is what I do</h2>
+            <div className="pfblock-line"></div>
+            <div className="pfblock-subtitle">
+              No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
             </div>
-
           </div>
 
         </div>
-        <div className="row">
-          <div className="col-sm-3">
-            <article className="do-art">
-              <header className="do-art__head">
-                <p className="do-art__logo">&lt;html/&gt;</p>
-                <h4>Верстка</h4>
-              </header>
-              <div className="do-art__main">
-                <ul className="list-unstyled">
-                  <li>Фиксированая верстка</li>
-                  <li>Адаптивная верстка</li>
-                  <li>Резиновая верстка</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div className="col-sm-3">
-            <article className="do-art">
-              <header className="do-art__head">
-                <p className="do-art__logo">&lt;animation/&gt;</p>
-                <h4>Анимация</h4>
-              </header>
-              <div className="do-art__main">
-              </div>
-            </article>
-          </div>
-          <div className="col-sm-3">
-            <article className="do-art">
-              <header className="do-art__head">
-                <p className="do-art__logo">&lt;img/&gt;</p>
-                <h4>Слайдеры</h4>
-              </header>
-              <div className="do-art__main">
-              </div>
-            </article>
-          </div> 
-          <div className="col-sm-3">
-            <article className="do-art">
-              <header className="do-art__head">
-                <p className="do-art__logo">&lt;form/&gt;</p>
-                <h4>Формы</h4>
-              </header>
-              <div className="do-art__main">
-              </div>
-            </article>
-          </div>
-        </div>
+
       </div>
-    </section>
+
+      <div className="row">
+
+        <div className="col-sm-3">
+
+          <div className="iconbox wow slideInLeft">
+            <div className="iconbox-icon">
+              <span className="icon-magic-wand"></span>
+            </div>
+            <div className="iconbox-text">
+              <h3 className="iconbox-title">Web Design</h3>
+              <div className="iconbox-desc">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="col-sm-3">
+
+          <div className="iconbox wow slideInLeft">
+            <div className="iconbox-icon">
+              <span className="icon-puzzle"></span>
+            </div>
+            <div className="iconbox-text">
+              <h3 className="iconbox-title">Web Programming</h3>
+              <div className="iconbox-desc">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="col-sm-3">
+
+          <div className="iconbox wow slideInRight">
+            <div className="iconbox-icon">
+              <span className="icon-badge"></span>
+            </div>
+            <div className="iconbox-text">
+              <h3 className="iconbox-title">Branding</h3>
+              <div className="iconbox-desc">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="col-sm-3">
+
+          <div className="iconbox wow slideInRight">
+            <div className="iconbox-icon">
+              <span className="icon-question"></span>
+            </div>
+            <div className="iconbox-text">
+              <h3 className="iconbox-title">Consultation</h3>
+              <div className="iconbox-desc">
+                Good things come to those who wait, but only the things left by those who hustle
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
     )
 }

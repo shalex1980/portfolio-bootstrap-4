@@ -1,0 +1,124 @@
+
+.rate {
+	padding: 50px 0;
+	&__block{
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin: auto;
+		border: solid 1px black;
+		//border-radius: 50%;
+	}
+	background: #fff;
+	&__itm {
+		position: absolute;
+		display: inline-block;
+		width: 10px;
+		height: 30px;
+		border: solid 1px black;
+		border-radius: 3px;
+	}
+}
+// @for $i from 1 through 100 {
+// 	.rate__itm:nth-of-type(#{$i}) {
+// 		left: 4px * $i;
+// 		top: 2px * $i;
+// 		transform: rotate(#{2* $i}deg);
+// 	}
+// }
+$l: 100px;  //left
+$d: 6px;   //width different
+$r: 3.6 ; // rate  deg
+$t: 2px;
+/*.rate__itm {
+	&:nth-of-type(1) {
+		left: $l;
+	}
+	&:nth-of-type(2) {
+		left: $l + $d;
+		top: $t;
+		transform: rotate(3deg);
+	}
+	&:nth-of-type(3) {
+		left: $l + $d * 2;
+		top: 2px;
+		transform: rotate($r*2deg);
+	}
+	&:nth-of-type(4) {
+		left: $l + $d * 3;
+		top: 4px;
+		transform: rotate($r * 3deg);
+	}
+	&:nth-of-type(5) {
+		left: $l + $d * 5;
+		top: 4px;
+		transform: rotate($r * 4deg);
+	}
+	&:nth-of-type(6) {
+		left: $l + $d * 6;
+		top: 4px;
+		transform: rotate($r * 5deg);
+	}
+	&:nth-of-type(7) {
+		left: $l + $d * 7;
+		top: 4px;
+		transform: rotate($r * 6deg);
+	}
+	&:nth-of-type(8) {
+		left: $l + $d * 8;
+		top: 4px;
+		transform: rotate($r * 7deg);
+	}
+	&:nth-of-type(9) {
+		left: $l + $d * 9;
+		top: 4px;
+		transform: rotate($r * 8deg);
+	}
+	&:nth-of-type(10) {
+		left: $l + $d * 10;
+		top: 4px;
+		transform: rotate($r * 9deg);
+	}
+	&:nth-of-type(11) {
+		left: $l + $d * 11;
+		top: 4px;
+		transform: rotate($r * 10deg);
+	}
+	&:nth-of-type(12) {
+		left: $l + $d * 12;
+		top: 4px;
+		transform: rotate($r * 11deg);
+	}
+	&:nth-of-type(13) {
+		left: $l + $d * 13;
+		top: 4px;
+		transform: rotate($r * 12deg);
+	}
+	&:nth-of-type(14) {
+		left: $l + $d * 14;
+		top: 4px;
+		transform: rotate($r * 13deg);
+	}
+	&:nth-of-type(15) {
+		left: $l + $d * 15;
+		top: 4px;
+		transform: rotate($r * 14deg);
+	}
+	&:nth-of-type(16) {
+		left: $l + $d * 16;
+		top: 4px;
+		transform: rotate($r * 15deg);
+	}
+	&:nth-of-type(17) {
+		left: $l + $d * 17;
+		top: 4px;
+		transform: rotate($r * 16deg);
+	}
+}*/
+@for $i from 1 through 100 {
+	.rate__itm:nth-of-type(#{$i}) {
+		left: $l + $d * $i;
+		top: $t * $i;
+		transform: rotate(#{$r * $i}deg);
+	}
+}
