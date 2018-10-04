@@ -1,5 +1,7 @@
 import React from 'react';
 import Waypoint from 'react-waypoint';
+import $ from 'jquery';
+//import './jquery.easypiechart.js';
 import './style.css';
 
 class Test extends React.Component {

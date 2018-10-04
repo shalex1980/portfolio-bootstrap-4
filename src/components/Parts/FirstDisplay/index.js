@@ -3,12 +3,13 @@ import './style.css';
 
 export default () => {
   return (
-    <section id="home" className="pfblock-image screen-height">
-      <div className="home-overlay"></div>
+    <section id="home" className="pfblock pfblock-intro">
       <div className="intro">
-        <div className="start">Hello, my name is John Doe and I am</div>
-        <h1>Full Stack Web Developer</h1>
-        <div className="start">creating modern and responsive Web Application</div>
+        <div className="start">Приветствую меня зовут Александр и я </div>
+        <h1>Web Developer <br />
+         <small>( Верстальщик - Фронтенд )</small>
+         </h1>
+        <div className="start">Верстаю проекты на основе ваших макетов</div>
       </div>
 
           <a href="#services">

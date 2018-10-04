@@ -7,7 +7,7 @@ export default () => {
   return (
   <header className="header">
 
-    <nav className="navbar navbar-custom" role="navigation">
+    <nav className="navbar navbar-custom" >
 
       <div className="container-fluid">
 

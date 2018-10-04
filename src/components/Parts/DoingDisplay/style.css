@@ -1,16 +1,20 @@
 /*-- Border -radius  --*/
-.do {
-  color: #fff;
-  outline: solid 1px #fff; }
-  .do-info {
-    margin-top: 100px;
-    margin-bottom: 100px; }
-  .do-art {
-    height: 100%;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    border: solid 1px #fff;
-    border-radius: 0.25rem; }
-    .do-art__logo {
-      font-weight: 700;
-      font-size: 22px; }
+/* ---------------------------------------------- /*
+ * Servise
+/* ---------------------------------------------- */
+.iconbox {
+  min-height: calc(100% - 15px);
+  background: #fff;
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 0 20px; }
+
+.iconbox-icon {
+  margin: 0 0 15px;
+  font-size: 32px;
+  color: #222; }
+
+.iconbox-title {
+  margin: 0 0 15px;
+  padding: 0; }
