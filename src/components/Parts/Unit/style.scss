@@ -13,7 +13,7 @@
 }
 
 .grid h2{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .grid figure {
@@ -157,8 +157,8 @@ figure.effect-bubba p {
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
 	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 figure.effect-bubba:hover h2,

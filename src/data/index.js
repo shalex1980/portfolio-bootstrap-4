@@ -1,94 +1,90 @@
 import img1 from 'assets/img/Ubr.jpg';
+import prev1 from 'assets/img/preview/Ubr.jpg';
 import img2 from 'assets/img/Uristar.jpg';
+import prev2 from 'assets/img/preview/Uristar.jpg';
 import img3 from 'assets/img/Barber/Main.jpg';
-import img3_1 from 'assets/img/Barber/About.jpg';
-import img3_2 from 'assets/img/Barber/Action.jpg';
-import img3_3 from 'assets/img/Barber/Category.jpg';
-import img3_4 from 'assets/img/Barber/Contact.jpg';
-import img3_5 from 'assets/img/Barber/Unit.jpg';
-import img3_6 from 'assets/img/Barber/News.jpg';
+import prev3 from 'assets/img/preview/Barber.jpg';
 import img4 from 'assets/img/Zdoba.jpg';
+import prev4 from 'assets/img/preview/Zdoba.jpg';
 import img5 from 'assets/img/Alcotek/Main.jpg';
-import img5_1 from 'assets/img/Alcotek/Advertise.jpg';
-import img5_2 from 'assets/img/Alcotek/Contact.jpg';
-import img5_3 from 'assets/img/Alcotek/Gallery.jpg';
-import img5_4 from 'assets/img/Alcotek/Page.jpg';
+import prev5 from 'assets/img/preview/Alcotek.jpg';
 import img6 from 'assets/img/Zvorota.jpg';
+import prev6 from 'assets/img/preview/Zvorota.jpg';
 import img7 from 'assets/img/Domokomplekt.jpg';
+import prev7 from 'assets/img/preview/Domokomplekt.jpg';
 import img8 from 'assets/img/Forum.jpg';
+import prev8 from 'assets/img/preview/Forum.jpg';
 import img9 from 'assets/img/InterStroy.jpg';
+import prev9 from 'assets/img/preview/InterStroy.jpg';
 import img10 from 'assets/img/PrimeVertical/Main.jpg';
-import img10_1 from 'assets/img/PrimeVertical/About.jpg';
-import img10_2 from 'assets/img/PrimeVertical/Learn.jpg';
-import img10_3 from 'assets/img/PrimeVertical/Project.jpg';
-import img10_4 from 'assets/img/PrimeVertical/Tehnology.jpg';
+import prev10 from 'assets/img/preview/PrimeVertical.jpg';
 import img11 from 'assets/img/PlayHouse.jpg';
+import prev11 from 'assets/img/preview/PlayHouse.jpg';
 import img12 from 'assets/img/SportMask.jpg';
+import prev12 from 'assets/img/preview/SportMask.jpg';
 import img13 from 'assets/img/LPT/Main.jpg';
-import img13_1 from 'assets/img/LPT/Catalog.jpg';
-import img13_2 from 'assets/img/LPT/Category.jpg';
-import img13_3 from 'assets/img/LPT/Inner.jpg';
+import prev13 from 'assets/img/preview/LPT.jpg';
 import img14 from 'assets/img/Daria.jpg';
+import prev14 from 'assets/img/preview/Daria.jpg';
 import img15 from 'assets/img/Ropamo/Main.jpg';
-import img15_1 from 'assets/img/Ropamo/Inner.jpg';
+import prev15 from 'assets/img/preview/Ropamo.jpg';
 import img16 from 'assets/img/Avicena/Main.jpg';
-import img16_1 from 'assets/img/Avicena/Catalog.jpg';
-import img16_2 from 'assets/img/Avicena/Inner.jpg';
+import prev16 from 'assets/img/preview/Avicena.jpg';
 import img17 from 'assets/img/Glagol/Main.jpg';
-import img17_1 from 'assets/img/Glagol/Catalog.jpg';
-import img17_2 from 'assets/img/Glagol/Unit.jpg';
-import img17_3 from 'assets/img/Glagol/Unit_inner.jpg';
+import prev17 from 'assets/img/preview/Glagol.jpg';
 import img18 from 'assets/img/HouseCanada.jpg';
+import prev18 from 'assets/img/preview/HouseCanada.jpg';
 import img19 from 'assets/img/Token.jpg';
+import prev19 from 'assets/img/preview/Token.jpg';
 
 const skills = [
 	{ id: "s123",
 		skill: "HTML5",
-		rate : 8
+		rate : 90
 	},
 	{ id: "t234",
 		skill: "CSS3",
-		rate : 8
+		rate : 90
 	},
 	{ id: "9fff",
 		skill: "SCSS",
-		rate : 7
+		rate : 90
 	},
 	{ id: "m342",
 		skill: "BEM",
-		rate : 7
+		rate : 90
 	},
 	{ id: "tr12",
 		skill: "Bootstrap",
-		rate : 5
+		rate : 60
 	},
 	{ id: "p453",
 		skill: "Materialize.css",
-		rate : 4
+		rate : 50
 	},
 	{ id: "sp90",
 		skill: "JS",
-		rate : 4
+		rate : 50
 	},
 	{ id: "23ud",
 		skill: "jQuery",
-		rate : 4
+		rate : 50
 	},
 	{ id: "od34",
 		skill: "React",
-		rate : 3
+		rate : 40
 	},
 	{ id: "pw32",
 		skill: "Git",
-		rate : 5
+		rate : 40
 	},
 	{ id: "pw3242",
 		skill: "Webpack",
-		rate : 5
+		rate : 50
 	},
 	{ id: "pw32100",
 		skill: "Gulp",
-		rate : 5
+		rate : 50
 	}
 	
 ]
@@ -97,6 +93,7 @@ const works = [
   {
 		id: "19wer",
 		img: img19,
+		preview: prev19,
 		shape: 1,
 		type: "Лендинг",
 		name: "В разработке",
@@ -109,6 +106,7 @@ const works = [
 	{
 		id: "1wer",
 		img: img1,
+		preview: prev1,
 		shape: 1,
 		type: "Лендинг",
 		name: "UBR консалт",
@@ -120,6 +118,7 @@ const works = [
 	{
 		id: "2wer",
 		img: img2,
+		preview: prev2,
 		shape: 1,
 		type: "Лендинг",
 		name: "Юристар ",
@@ -131,18 +130,10 @@ const works = [
 	{
 		id: "3wer",
 		img: img3,
-		inner: [
-			img3,
-			img3_1,
-			img3_2,
-			img3_3,
-			img3_4,
-			img3_5,
-			img3_6
-		],
+		preview: prev3,
 		shape: 2,
 		type: "Сайт-магазин",
-		name: "Веселый церюльник",
+		name: "Веселый цирюльник",
 		metods: [
 		'Адаптивная верстка',
 		],
@@ -151,6 +142,7 @@ const works = [
 	{
 		id: "4wer",
 		img: img4,
+		preview: prev4,
 		shape: 2,
 		type: "Сайт",
 		name: "Zdoba микс",
@@ -163,13 +155,7 @@ const works = [
 	{
 		id: "5wer",
 		img: img5,
-		inner: [
-			img5,
-			img5_1,
-			img5_2,
-			img5_3,
-			img5_4
-		],
+		preview: prev5,
 		shape: 2,
 		type: "Сайт",
 		name:  "Alcotek",
@@ -182,6 +168,7 @@ const works = [
 	{
 		id: "6wer",
 		img: img6,
+		preview: prev6,
 		shape: 1,
 		type: "Лендинг",
 		name: "Zворота",
@@ -193,6 +180,7 @@ const works = [
 	{
 		id: "7wer",
 		img: img7,
+		preview: prev7,
 		shape: 2,
 		type: "Сайт компании",
 		name: "Домокомплект",
@@ -205,6 +193,7 @@ const works = [
 	{
 		id: "8wer",
 		img: img8,
+		preview: prev8,
 		shape: 1,
 		type: "Лендинг",
 		name: "Forum Team",
@@ -216,6 +205,7 @@ const works = [
 	{
 		id: "9wer",
 		img: img9,
+		preview: prev9,
 		shape: 1,
 		type: "Лендинг",
 		name: "ФПК строй",
@@ -228,26 +218,21 @@ const works = [
 	{
 		id: "10wer",
 		img: img10,
-		inner: [
-			img10,
-			img10_1,
-			img10_2,
-			img10_3,
-			img10_4
-		],
+		preview: prev10,
 		shape: 2,
 		type: "Сайт компании",
 		name: " Prime Vertical",
 		metods: [
-		'Адаптивная верстка внутренних страниц',
 		'Bootstrap 3',
-		'Подключение и настройка плагинов'
+		'Адаптивная верстка',
+		'Подключение плагинов'
 		],
 		source: 'http://pv-mdd.ru/'
 	},
 	{
 		id: "11wer",
 		img: img11,
+		preview: prev11,
 		shape: 1,
 		type: "Лендинг",
 		name: "ИгроДом",
@@ -261,6 +246,7 @@ const works = [
 	{
 		id: "12wer",
 		img: img12,
+		preview: prev12,
 		shape: 1,
 		type: "Лендинг",
 		name: " СпортМаск",
@@ -273,13 +259,7 @@ const works = [
 	{
 		id: "13wer",
 		img: img13,
-		inner: [
-			img13,
-			img13_1,
-			img13_2,
-			img13_3,
-
-		],
+		preview: prev13,
 		shape: 2,
 		type: "Сайт-магазин",
 		name: " ЛТП-Электро",
@@ -291,6 +271,7 @@ const works = [
 	{
 		id: "14wer",
 		img: img14,
+		preview: prev14,
 		shape: 2,
 		type: "Сайт",
 		name: "Сайт ясновидящей Дарьи Светлой",
@@ -302,10 +283,7 @@ const works = [
 	{
 		id: "15wer",
 		img: img15,
-		inner: [
-			img15,
-			img15_1
-		],
+		preview: prev15,
 		shape: 2,
 		type: "Сайт",
 		name: "Юридическая компания",
@@ -317,14 +295,10 @@ const works = [
 	{
 		id: "16wer",
 		img: img16,
-		inner: [
-			img16,
-			img16_1,
-			img16_2
-		],
+		preview: prev16,
 		shape: 2,
 		type: "Сайт",
-		name: 'Медицинский центр "Авиценна"',
+		name: 'Медцентр "Авиценна"',
 		metods: [
 		'Фиксированная верстка',
 		],
@@ -333,12 +307,7 @@ const works = [
 	{
 		id: "17wer",
 		img: img17,
-		inner: [
-			img17,
-			img17_1,
-			img17_2,
-			img17_3
-		],
+		preview: prev17,
 		shape: 2,
 		type: "Сайт",
 		name: "Глагол",
@@ -350,11 +319,12 @@ const works = [
 	{
 		id: "18wer",
 		img: img18,
+		preview: prev18,
 		shape: 1,
 		type: "Лендинг",
-		name: " Компания по строительству каркасных домов",
+		name: " каркасный дом",
 		metods: [
-		'верстка',
+		'Фиксированная верстка',
 		],
 		source: 'http://ssz.ru/'
 	},

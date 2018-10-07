@@ -3,8 +3,9 @@ import FirstDisplay from '../../Parts/FirstDisplay/';
 import DoingDisplay from '../../Parts/DoingDisplay/';
 import Works from '../../Parts/Works/';
 import Skills from '../../Parts/Skills/';
-//import Test from '../../Parts/Test/';
-//import Footer from '../../Parts/Footer/';
+import Ready from '../../Parts/Ready/';
+import Contact from '../../Parts/Contact/';
+import Examples from '../../Parts/Examples/';
 import './style.css';
 
 export default () => {
@@ -13,7 +14,10 @@ export default () => {
         <FirstDisplay />
         <DoingDisplay />
         <Works />
-        <Skills />
+        <Skills /> 
+        <Ready />
+        <Examples />
+        <Contact />
       </div>
     )
 }

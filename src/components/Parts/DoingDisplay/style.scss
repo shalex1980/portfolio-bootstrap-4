@@ -17,9 +17,24 @@
 	margin: 0 0 15px;
 	font-size: 32px;
 	color: #222;
+	img {
+		max-width: 50px;
+	}
 }
 
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+.icon-anim {
+	animation-name: rot;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rot {
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(180deg)}
+    100% {transform: rotate(360deg)}
 }
