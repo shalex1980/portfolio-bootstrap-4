@@ -79,3 +79,45 @@
 .navbar-custom .navbar-toggle .icon-bar {
 	background: #222;
 }
+.header-navbar-toggler {
+	display: none;
+	width: 45px;
+	height: 40px;
+	line-height: 8px;
+	cursor: pointer;
+	background: transparent;
+	border: solid 1px black;
+	span {
+		display: inline-block;
+		width: 100%;
+		height: 5px;
+		margin: 0;
+		line-height: 0px;
+		border-radius: 4px;
+		background: $gray-700;
+
+	}
+}
+.open {
+	height: auto;
+}
+@media screen and (max-width: 992px) {
+	.header-navbar-toggler {
+		display: inline-block;
+	}
+	.navbar-header {
+		width: 100%;
+	}
+	.nav-header {
+		display: none;
+		visibility: hidden;
+		flex-direction: column;
+
+	}
+	.nav-header.open {
+		display: flex;
+		visibility: visibily;
+		transition: all 1s linear;
+	}
+	
+}

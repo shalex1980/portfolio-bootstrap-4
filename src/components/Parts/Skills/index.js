@@ -27,20 +27,20 @@ class Skills extends React.Component {
     <Waypoint onEnter={this.handleWaipontEnter} onLeave={this.handleWaipontLeave}>
       <section className="pfblock pfblock-gray" id="skills">
           <div className="container">
-            <div className="row skills">
-              <div className="row">
-                <div className="col-sm-6 offset-sm-3">
-                  <div className="pfblock-header " ref={el => this.head = el } >
-                    <h2 className="pfblock-title">Мои навыки</h2>
-                    <div className="pfblock-line"></div>
-                    <div className="pfblock-subtitle">
-                          Я постоянно изучаю что то навое и повышаю свои навыки. 
-                          Ниже навыки которыми я обладаю и применяю.
+            <div className="row">
+              <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3">
+                <div className="pfblock-header" ref={el => this.head = el } >
+                  <h2 className="pfblock-title">Мои навыки</h2>
+                  <div className="pfblock-line"></div>
+                  <div className="pfblock-subtitle">
+                        Я постоянно изучаю что то нoвое и повышаю свои навыки. 
+                        Ниже навыки которыми я обладаю и применяю.
 
-                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="row skills">
             {tmp}
             </div>
           </div>

@@ -24,7 +24,7 @@ body {
  * Licensed under MIT
 */
 body {
-  font: 300 14px/1.8 'Raleway', sans-serif;
+  font: 300 14px/1.8 'Roboto', sans-serif;
   color: #666;
   overflow-x: hidden; }
 
@@ -73,7 +73,7 @@ a,
  * Typography
 /* ---------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font: 700 40px/1.2 Raleway, sans-serif;
+  font: 700 40px/1.2 Roboto, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 5px 0 5px;
@@ -160,7 +160,7 @@ textarea.form-control {
  * Custom button style
 /* ---------------------------------------------- */
 .btn {
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13px;
@@ -247,7 +247,7 @@ textarea.form-control {
   font-weight: 800; }
 
 .pfblock-subtitle {
-  font-family: Raleway, "Times New Roman", Times, sans-serif;
+  font-family: Roboto, "Times New Roman", Times, sans-serif;
   font-style: normal;
   font-size: 18px; }
 

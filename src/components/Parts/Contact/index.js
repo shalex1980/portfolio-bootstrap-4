@@ -24,7 +24,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
 
-              <div className="col-sm-6 offset-sm-3">
+              <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3">
 
                 <div className="pfblock-header">
                   <h2 className="pfblock-title">Напишите мне</h2>
@@ -40,9 +40,9 @@ class Contact extends React.Component {
 
             <div className="row">
 
-              <div className="col-sm-6 offset-sm-3">
+              <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3">
 
-                <form id="contact-form" role="form">
+                <form id="contact-form" >
                   <div className="ajax-hidden">
                     <div className="form-group " ref={el => this.wrap_name = el}>
                       <label className="sr-only" htmlFor="c_name">Name</label>
@@ -65,6 +65,20 @@ class Contact extends React.Component {
 
               </div>
 
+            </div>
+            <div className="row contact-soc">
+              <div className="col-sm-6 col-md-5 contact-block">
+                <p>
+                  <i className="fa fa-skype"></i>
+                  shalexsandr1980
+                </p>
+              </div>
+              <div className="col-sm-6 col-md-5 offset-md-2 contact-block">
+                <p>
+                  <i className="fa fa-telegram"></i>
+                  @Alek_Sh
+                </p>
+              </div>
             </div>
           </div>
         </section>

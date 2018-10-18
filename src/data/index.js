@@ -36,55 +36,79 @@ import img18 from 'assets/img/HouseCanada.jpg';
 import prev18 from 'assets/img/preview/HouseCanada.jpg';
 import img19 from 'assets/img/Token.jpg';
 import prev19 from 'assets/img/preview/Token.jpg';
+import html5 from 'assets/img/icons/html5.png';
+import css3 from 'assets/img/icons/css3.png';
+import sass from 'assets/img/icons/sass.png';
+import bem from 'assets/img/icons/bem.png';
+import bootstrap from 'assets/img/icons/bootstrap.png';
+import materialize from 'assets/img/icons/materialize.png';
+import js from 'assets/img/icons/js.png';
+import jquery from 'assets/img/icons/jquery.png';
+import react from 'assets/img/icons/react.png';
+import gulp from 'assets/img/icons/gulp.png';
+import webpack from 'assets/img/icons/webpack.jpg';
+import git from 'assets/img/icons/git.png';
 
 const skills = [
 	{ id: "s123",
 		skill: "HTML5",
-		rate : 90
+		rate : 90,
+		icon : html5
 	},
 	{ id: "t234",
 		skill: "CSS3",
-		rate : 90
+		rate : 90,
+		icon : css3
 	},
 	{ id: "9fff",
 		skill: "SCSS",
-		rate : 90
+		rate : 90,
+		icon : sass
 	},
 	{ id: "m342",
 		skill: "BEM",
-		rate : 90
+		rate : 90,
+		icon : bem
 	},
 	{ id: "tr12",
 		skill: "Bootstrap",
-		rate : 60
+		rate : 60,
+		icon: bootstrap
 	},
 	{ id: "p453",
 		skill: "Materialize.css",
-		rate : 50
+		rate : 50,
+		icon: materialize
 	},
 	{ id: "sp90",
 		skill: "JS",
-		rate : 50
+		rate : 50,
+		icon: js
 	},
 	{ id: "23ud",
 		skill: "jQuery",
-		rate : 50
+		rate : 50,
+		icon: jquery
 	},
 	{ id: "od34",
 		skill: "React",
-		rate : 40
+		rate : 40,
+		icon: react
 	},
 	{ id: "pw32",
 		skill: "Git",
-		rate : 40
+		rate : 40,
+	  icon: git
 	},
 	{ id: "pw3242",
 		skill: "Webpack",
-		rate : 50
+		rate : 50,
+		icon: webpack
 	},
 	{ id: "pw32100",
 		skill: "Gulp",
-		rate : 50
+		rate : 50,
+		icon: gulp
 	}
 	
 ]

@@ -2,3 +2,12 @@
   color: white; }
   #contact .pfblock-title {
     color: white; }
+
+.contact-block {
+  font-size: 24px;
+  line-height: 30px; }
+  .contact-block i {
+    margin-right: 20px; }
+
+.contact-soc {
+  margin-top: 50px; }

@@ -21,7 +21,7 @@ class Works extends  React.Component {
           <div className="container">
             <div className="row">
 
-              <div className="col-sm-6 offset-sm-3">
+              <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3">
 
                 <div className="pfblock-header" ref={el => this.head = el} >
                   <h2 className="pfblock-title">Мои работы</h2>

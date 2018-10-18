@@ -5,7 +5,7 @@ class Unit extends React.Component {
   render() {
     const {preview, metods, name, source} = this.props.item;
     return (
-      <div className="col-xs-12 col-sm-4 col-md-4">
+      <div className=" col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-4">
         <div className="grid">
           <a href={source} target="_blank"> 
             <figure className="effect-bubba">
