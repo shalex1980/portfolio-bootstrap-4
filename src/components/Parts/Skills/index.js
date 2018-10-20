@@ -5,24 +5,16 @@ import { skills } from '../../../data/';
 import './style.css';
 
 class Skills extends React.Component {
-  constructor(props) {
-    super(props);
-    this.list = [];
-  }
-  handleMakeList = (el) => {
-    this.list.push(el);
-  }
   handleWaipontEnter = () => {
       this.head.classList.add('fadeInUp');
       this.head.classList.add('animated');
-      this.list.map((item, ind ) => item.style.height = `${skills[ind].rate}%`);
   }
   handleWaipontLeave = () => {
       this.head.classList.add('animated');
   }
 
   render() {
-    const tmp = skills.map(item => <Skill key={item.id} rate={item.rate} skill={item.skill} makeList={this.handleMakeList} />)
+    const tmp = skills.map(item => <Skill key={item.id} {...item}  />)
      return (
     <Waypoint onEnter={this.handleWaipontEnter} onLeave={this.handleWaipontLeave}>
       <section className="pfblock pfblock-gray" id="skills">
@@ -33,9 +25,8 @@ class Skills extends React.Component {
                   <h2 className="pfblock-title">Мои навыки</h2>
                   <div className="pfblock-line"></div>
                   <div className="pfblock-subtitle">
-                        Я постоянно изучаю что то нoвое и повышаю свои навыки. 
+                        Постоянно изучаю что то нoвое и повышаю свои навыки. 
                         Ниже навыки которыми я обладаю и применяю.
-
                   </div>
                 </div>
               </div>

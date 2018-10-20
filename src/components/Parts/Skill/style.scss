@@ -3,20 +3,24 @@
 
 .skill {
   position: relative;
+  padding: 20px 0;
   margin-top: 40px;
   overflow: hidden;
   text-align: center;
   border: solid 1px $gray-300;
   border-radius: $border-radius;
-  &-header {
-    position: relative;
-    padding: 20px 0;
-    z-index: 1;
-    h3 {
-      font: {
-        size: 18px;
-        weight: 700;
-      }
+  background: #fff;
+  &-title {
+    margin-top: 20px;
+    font: {
+      size: 18px;
+      weight: 700;
+    }
+  }
+  &-body {
+    text-align: center;
+    img {
+      height: 100px;
     }
   }
   &-rate {

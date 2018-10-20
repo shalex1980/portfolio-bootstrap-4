@@ -12,7 +12,10 @@ class Header extends React.Component {
 
   handleToggle = ( ) => {
     this.setState({ toggle: !this.state.toggle});
-    console.log( 'toggle');
+    let links = [].slice.call(this.nav.querySelectorAll('a'));
+    let height = links.reduce((hgt, link) => (hgt + link.offsetHeight), 0 );
+    this.nav.style.height = !this.state.toggle ? `${height}px` : '0px';
+    console.log( 'toggle', links.length, "  == ", height);
   }
   
   render() {
@@ -29,15 +32,15 @@ class Header extends React.Component {
               <span></span>
             </button>
           </div>
-            <nav  className={`nav nav-header justify-content-end ${toggle ? 'open' : ''}`}>
-              <a className="nav-link" href="#home">Главная </a>
-              <a className="nav-link" href="#services">Услуги</a>
-              <a className="nav-link" href="#works">Работы</a>
-              <a className="nav-link" href="#skills">Навыки</a>
-              <a className="nav-link" href="#examples">Примеры</a>
-              <a className="nav-link" href="#contact">Контакты</a>
-            </nav>
-          </div>
+          <nav  className={`nav nav-header justify-content-end ${toggle ? 'open' : ''}`} ref={el => this.nav = el }>
+            <a className="nav-link" href="#home">Главная </a>
+            <a className="nav-link" href="#services">Услуги</a>
+            <a className="nav-link" href="#works">Работы</a>
+            <a className="nav-link" href="#skills">Навыки</a>
+            <a className="nav-link" href="#examples">Примеры</a>
+            <a className="nav-link" href="#contact">Контакты</a>
+          </nav>
+        </div>
       
       </nav>
     </header>
