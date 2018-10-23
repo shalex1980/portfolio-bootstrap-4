@@ -36,7 +36,7 @@ class DoingDisplay extends React.Component{
   return (
       <Waypoint onEnter={this.handleWaipontEnter} onLeave={this.handleWaipontLeave}>
         <section id="services" className="pfblock pfblock-gray">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
 
               <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3 ">

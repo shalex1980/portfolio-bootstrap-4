@@ -82,11 +82,12 @@
 .header-navbar-toggler {
 	display: none;
 	width: 45px;
-	height: 40px;
-	line-height: 8px;
+	height: 45px;
+	line-height: 9px;
 	cursor: pointer;
 	background: transparent;
 	border: solid 1px black;
+	border-radius: 4px;
 	span {
 		display: inline-block;
 		width: 100%;
@@ -107,6 +108,7 @@
 	}
 	.navbar-header {
 		width: 100%;
+
 	}
 	.nav-header {
 		display: none;
@@ -114,12 +116,12 @@
 		overflow: hidden;
 		visibility: hidden;
 		flex-direction: column;
-		transition: all 0.5s linear;
+		transition: all 0.3s linear;
 
 	}
 	.nav-header.open {
 		display: flex;
-		//height: auto;
+
 		visibility: visible;
 		
 	}

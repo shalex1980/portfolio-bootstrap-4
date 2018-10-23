@@ -22,7 +22,7 @@ class Ready extends React.Component {
     return (
       <Waypoint onEnter={this.handleWaipontEnter} onLeave={this.handleWaipontLeave}>
         <section className="calltoaction">
-          <div className="container">
+          <div className="container-fluid">
 
             <div className="row">
 

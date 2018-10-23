@@ -6489,9 +6489,6 @@ body {
 .wrap {
   min-height: 100vh; }
 
-.container, .container-fluid {
-  outline: solid 1px black; }
-
 /*!
  * Clean v2.0.0
  * Homepage: http://scripteden.com

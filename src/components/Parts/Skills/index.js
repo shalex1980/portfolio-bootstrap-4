@@ -18,7 +18,7 @@ class Skills extends React.Component {
      return (
     <Waypoint onEnter={this.handleWaipontEnter} onLeave={this.handleWaipontLeave}>
       <section className="pfblock pfblock-gray" id="skills">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-sm-8 offset-sm-2 col-md-6 offset-md-3">
                 <div className="pfblock-header" ref={el => this.head = el } >

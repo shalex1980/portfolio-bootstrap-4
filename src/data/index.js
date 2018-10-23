@@ -125,7 +125,7 @@ const works = [
 		'Резиновая верстка 1920рх 1200рх',
 		'Слайдеры, анимация'
 		],
-		source: 'http://worker.zz.mu/Token/ '
+		source: 'http://worker.zz.mu/Examples/Token/ '
 	},
 	{
 		id: "1wer",

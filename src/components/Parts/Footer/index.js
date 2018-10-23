@@ -5,7 +5,7 @@ import './style.css';
 export default () => {
   return (
     <footer id="footer">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12">
             <ul className="social-links">

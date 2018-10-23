@@ -18,4 +18,34 @@
 		margin-top: 50px;
 	}
 }
+.form {
+	&-error {
+		position: relative;
+		display: none;
+		padding: 5px 10px;
+		margin-top: 10px;
+		color: red;
+		border-radius: 5px;
+		background: #fff;
+		&:before {
+			position: absolute;
+			top: -14px;
+			left: 7px;
+			content: " ";
+			display: block;
+			width: 1px;
+			height: 1px;
+			border: solid 7px transparent;
+			border-bottom-color: #fff;
 
+		}
+	}
+}
+.form-error.open {
+	display: block;
+}
+@media (min-width: 580px) {
+	.contact-block:first-of-type {
+		text-align: right;
+	}
+}
